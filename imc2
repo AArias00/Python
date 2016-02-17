@@ -1,0 +1,35 @@
+/usr/bin/env python
+
+t = input ("Taille : ")
+Entrer la taille
+
+m = int(input ("Masse : "))
+Entrer la masse
+
+tc = float (t) mc = float(m)
+Nombre décimaux
+
+tc = tc/100
+Conversion de cm en m
+
+imc = (mc)/(tc*tc)
+Calcul de l'imc
+
+print ('IMC =',imc)
+Afficher le calcul de l'imc
+
+if imc<16.5:
+
+print ('Famine ou Afrique, manges mon pote, va au mcdo')
+
+if 16.5<imc<18.5: print ('Ca passe, va au mcdo quand meme')
+
+if 18.5<imc<25: print ('Normal mon pote')
+
+if 25<imc<30: print ('Tu commences à être fat mon pote, fais du sport')
+
+if 30<imc<35: print ('Aya arrêtes le mcdo mon pote, tu vas bientot plus passer les portes')
+
+if 35<imc<40: print ('Tu passes plus les portes, gros')
+
+if imc>40: print ('WAYA c est chaud mon pote, ton espèrance de vie est de 17minutes')
