@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+
+#obtenirlecodeascii	
+print(ord("a"));
+print(chr(65));
