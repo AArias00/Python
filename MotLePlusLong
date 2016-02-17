@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+
+texte=input("Phrase sale batard :")
+mot_long = ""                      # Cette variable contiendra le mot cherché. # Le recordman de longueur en quelque sorte.
+                                   # Pour l’instant on stocke le mot vide "" dedans.
+mots = texte.split()                # On construit la liste des mots.
+for mot in mots:                     # On parcourt cette liste (boucle for).
+     if len(mot) > len(mot_long):   # Si le mot rencontré bat le record de longueur,
+         mot_long = mot              # on le proclame recordman.
+
+print(mot_long)                           # On affiche le résultat.
+ 
+
+
+
