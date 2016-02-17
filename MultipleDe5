@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+
+a=int(input("a :"))
+b=int(input("b :"))
+#Entrer les bornes a et b
+compteur = a 
+somme = 0
+while compteur < b:
+	#tant que a inférieur a b 
+	print (compteur)
+	#Afficher compteur
+	if compteur%5==0: 
+		print (compteur)
+		#Si le reste de la division entre compteur et 5 est O alors afficher compteur
+		somme = somme + compteur
+		#La somme prend la valeur somme+compteur
+	compteur=compteur+1
+	#On ajoue 1 à compteur
+print (somme)
+#Afficher somme
